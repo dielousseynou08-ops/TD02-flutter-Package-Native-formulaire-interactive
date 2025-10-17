@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:placefavorite/main.dart';
 import 'package:placefavorite/providers/endroit_utilisateur.dart';
 import 'package:placefavorite/vue/image_prise.dart';
-import 'package:placefavorite/widgets/endroits_list.dart';
 
 class AjoutEndroit extends ConsumerStatefulWidget {
   const AjoutEndroit({super.key});
