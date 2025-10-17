@@ -33,7 +33,14 @@ class _ImagePriseState extends State<ImagePrise> {
         _photoSelectionnee == null
             ? TextButton.icon(
                 onPressed: _prendrePhoto,
-                label: const Text('Prendre photo'),
+                label: const Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(Icons.camera_alt),
+                    SizedBox(width: 5),
+                    Text('Prendre photo'),
+                  ],
+                ),
               )
             : GestureDetector(
                 onTap: _prendrePhoto,
